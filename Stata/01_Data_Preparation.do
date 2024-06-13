@@ -18,7 +18,7 @@ foreach year of numlist 2017/2020 {
 	
 	**# File D: Datos básicos del hogar
 	 
-    use "Raw\ECV_Td_`year'.dta", clear
+    	use "Raw\ECV_Td_`year'.dta", clear
 	
 	* Variables of interest
 	
@@ -304,7 +304,7 @@ foreach year of numlist 2021/2023 {
 	
 	**# File D: Datos básicos del hogar
 	
-    use "Raw\ECV_Td_`year'.dta", clear
+    	use "Raw\ECV_Td_`year'.dta", clear
 	
 	* Variables of interest
 	
@@ -591,11 +591,11 @@ save "Panel.dta", replace
 
 foreach year of numlist 2018/2023 {
 	
-    use "Data_`year'.dta", clear
+	use "Data_`year'.dta", clear
 	
-    append using "Panel.dta"
+    	append using "Panel.dta"
 	
-    save "Panel.dta", replace
+    	save "Panel.dta", replace
 	
 	sleep 1000
 }
