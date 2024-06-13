@@ -154,11 +154,11 @@ save "Data\Quantiles.dta", replace
 
 foreach year of numlist 2018/2023 {
 	
-    use "Data\Temporary\Quantiles_Females_`year'.dta", clear
+    	use "Data\Temporary\Quantiles_Females_`year'.dta", clear
 	
-    append using "Data\Quantiles.dta"
+    	append using "Data\Quantiles.dta"
 	
-    save "Data\Quantiles.dta", replace
+    	save "Data\Quantiles.dta", replace
 	
 	sleep 1000
 }
@@ -177,11 +177,11 @@ save "Data\Temporary\Quantiles_Males.dta", replace
 
 foreach year of numlist 2018/2023 {
 	
-    use "Data\Temporary\Quantiles_Males_`year'.dta", clear
+    	use "Data\Temporary\Quantiles_Males_`year'.dta", clear
 	
-    append using "Data\Temporary\Quantiles_Males.dta"
+    	append using "Data\Temporary\Quantiles_Males.dta"
 	
-    save "Data\Temporary\Quantiles_Males.dta", replace
+    	save "Data\Temporary\Quantiles_Males.dta", replace
 	
 	sleep 1000
 }
@@ -201,7 +201,6 @@ drop _merge
 sort year quantile
 
 * Corrected and uncorrected wage gaps
-
 gen c_wage_gap = (corrected_q_males / corrected_q_females - 1)*100
 gen u_wage_gap = (uncorrected_q_males / uncorrected_q_females - 1)*100
 
