@@ -13,3 +13,4 @@ do 02_Descriptive_Analysis
 do 03_Propensity_Score
 do 04_QSR
 do 05_QSR_Bootstrap
+do 06_Corrected_Inequality
