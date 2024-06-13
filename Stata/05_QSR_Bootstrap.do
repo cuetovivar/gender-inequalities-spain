@@ -47,5 +47,3 @@ foreach year of numlist 2017/2023 {
 	bootstrap rho = e(rho) _b, reps(100) seed(5): qregsel $wage_eqn if year == `year' & male == 1, select($seleqn) quantile(.5)
 
 }
-
-log close
