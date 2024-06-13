@@ -33,7 +33,7 @@ Code description
 The code is included in the folder `Stata` and divided into 6 do files plus a master do file that executes all the code.
 
 - `Stata/00_Master.do` runs all the code.
-- `Stata/01_Data_Preparation.do` cleans the data to create the sample.
+- `Stata/01_Data_Preparation.do` creates the sample.
 - `Stata/02_Descriptive_Analysis.do` obtains different descriptive statistics.
 - `Stata/03_Propensity_Score.do` estimates the propensity score using a Probit model.
 - `Stata/04_QSR.do` estimates the quantile selection model of [Arellano and Bonhomme (2017)](https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA14030).
