@@ -90,3 +90,5 @@ log using "Log\Corrected_Wage_Inequality.log", replace
 table year, stat(mean uncorrected_f corrected_f uncorrected_m corrected_m)
 
 log close
+
+restore
