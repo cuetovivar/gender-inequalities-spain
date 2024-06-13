@@ -60,3 +60,5 @@ log using "Log\Observed_Wage_Gap.log", replace
 list, clean
 
 log close
+
+restore
