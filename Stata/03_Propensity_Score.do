@@ -36,9 +36,9 @@ foreach year of numlist 2017/2023 {
 	
 	predict p_hat_`year', pr
     
-    replace p_hat = p_hat_`year' if year == `year' & male == 0
+    	replace p_hat = p_hat_`year' if year == `year' & male == 0
     
-    drop p_hat_`year'
+    	drop p_hat_`year'
 }
 
 log close
@@ -57,9 +57,9 @@ foreach year of numlist 2017/2023 {
 	
 	predict p_hat_`year', pr
     
-    replace p_hat = p_hat_`year' if year == `year' & male == 1
+    	replace p_hat = p_hat_`year' if year == `year' & male == 1
     
-    drop p_hat_`year'
+    	drop p_hat_`year'
 }
 
 log close
