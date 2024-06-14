@@ -46,7 +46,7 @@ Instructions for replication
 - Create a folder named `Data` with two subfolders: `Raw` and `Temporary`.
 - The original data from the _Encuesta de Condiciones de Vida_ must be stored in `Data/Raw`.
 - Create a folder named `Log`, where numerical results will be stored.
-- Create a folder names `Figures`, where figures will be stored.
+- Create a folder named `Figures`, where figures will be stored.
 - Run `Stata/00_Master.do`.
 
 List of tables and figures
@@ -61,13 +61,13 @@ Tables are stored in `Log`and figures in `Figures`.
 
 | Table/Figure | Do file | Output file |
 |---|---|---|
-| Table 1 | `Stata/02_Descriptive_Analysis.do` | `Log\Descriptive_Statistics.log` |
-| Table 2 | `Stata/02_Descriptive_Analysis.do` | `Log\Descriptive_Statistics.log` |
-| Table 3 | `Stata/02_Descriptive_Analysis.do` | `Log\Observed_Wage_Gap.log` |
-| Table 4 | `Stata/03_Propensity_Score.do` | `Log\Average_Propensity_Score.log` |
-| Table 5 | `Stata/04_QSR.do` and `Stata/05_QSR_Bootstrap.do` | `Log\QSR_Females_'year'.log`, `Log\QSR_Males_'year'.log`, `Log\QSR_Females_Bootstrap.log` and `Log\QSR_Males_Bootstrap.log` |
-| Table 6 | `Stata/06_Corrected_Inequality.do` | `Log\Corrected_Wage_Inequality.log` |
-| Figure 1 | `Stata/06_Corrected_Inequality.do` | `Figures\Quantile_'q'th.png` |
+| Table 1 | `Stata/02_Descriptive_Analysis.do` | `Log/Descriptive_Statistics.log` |
+| Table 2 | `Stata/02_Descriptive_Analysis.do` | `Log/Descriptive_Statistics.log` |
+| Table 3 | `Stata/02_Descriptive_Analysis.do` | `Log/Observed_Wage_Gap.log` |
+| Table 4 | `Stata/03_Propensity_Score.do` | `Log/Average_Propensity_Score.log` |
+| Table 5 | `Stata/04_QSR.do` and `Stata/05_QSR_Bootstrap.do` | `Log/QSR_Females_'year'.log`, `Log/QSR_Males_'year'.log`, `Log/QSR_Females_Bootstrap.log` and `Log/QSR_Males_Bootstrap.log` |
+| Table 6 | `Stata/06_Corrected_Inequality.do` | `Log/Corrected_Wage_Inequality.log` |
+| Figure 1 | `Stata/06_Corrected_Inequality.do` | `Figures/Quantile_'q'th.png` |
 
 References
 -----------------
