@@ -5,6 +5,8 @@ Overview
 
 This replication package reproduces all the results in "Gender Inequalities in Spain: Selection into Employment and the Wage Gap," starting from raw data preparation to the final results. The entire code may take 2 to 3 weeks to run, mainly due to the bootstrap, but many parts can be run independently.
 
+I wish to acknowledge funding from the Chair of Equlity and Gender Studies at the Universidad de Cantabria through one of their "ayudas para la realización de TFG en estudios de las mujeres y de género", funded by the Council of Social Inclusion, Youth, Families and Equality of the Goverment of Cantabria.
+
 If you spot any mistake or have any questions, please email: cuetovivar@gmail.com.
 
 Data availability
